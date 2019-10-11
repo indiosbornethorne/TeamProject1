@@ -3,13 +3,34 @@ html {
     font-family: "Helvetica", "Helvetica", "Helvetica";
 }
 
-//p {
+p {
+    font-family: "Helvetica", "Helvetica", "Helvetica";
+}
+
+a {
+    font-family: "Helvetica", "Helvetica", "Helvetica";
+}
+
+b {
+    font-family: "Helvetica", "Helvetica", "Helvetica";
+}
+
+h2 {
+    font-family: "Helvetica", "Helvetica", "Helvetica";
+}
+
+h1 {
+    font-family: "Helvetica", "Helvetica", "Helvetica";
+}
+
+i {
     font-family: "Helvetica", "Helvetica", "Helvetica";
 }
 
 .topnav {
   background-color: #ffff;
     overflow: hidden;
+    border-bottom:5px solid rgb(249,249,249);padding-bottom:10px;
 }
 
 .margin {
@@ -36,13 +57,17 @@ text-align: center;
   text-align: center;
   padding: 10px 10.2px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16.9px;
+}
+
+/.nav .current{
+  color: #ff0808";  
 }
 
 body {
     background: #ffffff;
     max-width: 960px;
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica", "Helvetica", "Helvetica";
     padding: 2em 2em 4em;
     margin: auto;
     
