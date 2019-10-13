@@ -30,19 +30,85 @@
     <br>
     <br>
 
-    <h2>Project Ideas</h2>
-        <b>Our Similar Feedback From Assignment 1</b>
+    <h2>Project Idea</h2>
+    <h2>Cost Effective Home Security System. CEHSS</h2>
         <p style="margin-left: 1%">
-ZZZ
-        <br>
-        <br>
+Our group idea expands on the idea conceived of by Indi Osborne-Thorne, wherein a system activated through Secure Shell (SSH), which allows secure remote access, would be able to perform actions intended to dissuade an intruder from continuing to attempt to enter the premises. The system would be run through a “Raspberry Pi”, a small, low cost computer that can be used for a variety of interesting purposes and is extremely energy efficient, using only about 3 watts of power in operation. A system alert would be triggered by an external security device like a motion sensor and alert the user to the presence of an intruder. The Raspberry Pi would then run a script to activate one of a series of pre-recorded audio tracks that could range from loud alarm sounds, an audio recording warning against intrusion and of the security devices etc. The versatility of the low-profile Raspberry Pi means it can be wired to any number of speakers throughout the premises and repeat the intended audio until the user turns it off. This system could also make use of recycled smartphone cameras and screens for the purpose of monitoring or recording.
+        <p style="margin-left: 0%"><br>
+<b>Motivation:</b>
+                    <p style="margin-left: 1%">
+This project is potentially important to the concept of affordable personal security and the accessibility of helpful everyday IT projects. Raspberry Pi computers are very versatile and exploring this aspect of programming would benefit the skillset of our team. <br><br>
+The concept of low-cost personal security would surely be of interest to a great number of people. High definition security camera and intrusion deterrence systems could cost thousands of dollars, but this system could be done at a greatly reduced cost and is modular to the needs of the user.<br><br>
+Indi’s personal motivations stem from a desire to improve his own security and peace of mind regarding the safety of his partner, believing that home security is overlooked due to the low rate of home break ins and that a modular personal security system with deterrence factors can ensure the protection of your belongings and loved ones.
+
         <br>
         <br>
             <p style="margin-left: 0%">
-            <b>Our Group Project Idea</b>
+            <b>Stage 1 - Intruder alert: </b>
              <p style="margin-left: 1%">
                  
-ZZZ (Atleast 500 words)
+A user receives an alert that an intruder has been detected by motion sensors or sees an intruder via the camera feed and activates the next stage.
+
+        <br>
+        <br>
+            <p style="margin-left: 0%">
+            <b>Stage 2 - System activation: </b>
+             <p style="margin-left: 1%">
+                 
+Indi speculates that the first stage of this project would run the script from a command line before developing a smartphone app with a graphical user interface or GUI that would perform the steps in the command line for the user. The user would use SSH to login to the Raspberry Pi machine and send instructions to run the scripts that command thigs like lights, speakers, volume control and output file selection, with the output being a system of speakers. 
+
+        <br>
+        <br>
+            <p style="margin-left: 0%">
+            <b>Stage 2 - (Limitations and solutions): </b>
+             <p style="margin-left: 1%">
+                 
+This project may be impeded by the issue of using SSH while not directly connected to the network. Normally SSH requires a direct connection in order to operate, however through port forwarding, sometimes referred to as “SSH Tunnelling” it may be possible to operate the system from anywhere without circumventing security such as firewalls. This can be achieved by creating a permanent internet Protocol (IP) address for the Raspberry Pi that the user is able to log into with SSH.
+
+        <br>
+        <br>
+            <p style="margin-left: 0%">
+            <b>Stage 3: Intruder reaction: </b>
+             <p style="margin-left: 1%">
+                 
+Evidence suggests that traditional alarm systems, while effective in their own way at alerting one to the act of a crime in progress, are inferior to deterrent systems that warn intruders of the fact that they are being recorded and/or the police have already been alerted. The system could scale up from a warning to a loud cacophony of noise that would alert surrounding neighbours to the presence of the intruders. The user could then shut the system down if the intruder leaves by using a follow-up script to turn off the audio. Additionally, if the intruder decided to persist despite all warnings and deterrent measures, the user could respond by calling the police or possibly by installing a script that would alert the authorities to a crime in progress at the desired location.
+
+        <br>
+        <br>
+            <p style="margin-left: 0%">
+            <b>Evaluation:</b>
+             <p style="margin-left: 1%">
+                 
+The team behind the project would be developing new skills and ideas as the project moves along, gaining skills in scripting app creation and design and experimenting with the hardware involved. This project would at first be accessible only to very tech savvy people willing to experiment and learn to create their own systems. The user must also have or be willing to acquire motion sensors and or other associated security devices to integrate into the system. However, if the systems could be sold operational as kits, perhaps with guides on how to ad your own elements into the system based on research conducted by the team. Or perhaps a business that installs these low-profile security systems in homes.<br><br>
+Because of the modularity of Raspberry Pi, the system could in theory be used for any number of integrated Wi-Fi controlled measures.  It could also be possible to implement an option to upload and play a message at the time of activation that plays on a loop, such as saying, “I know you are there, and I am calling the police” and giving a description of the intruder so they know the feed is live.
+
+
+        <br>
+        <br>
+            <p style="margin-left: 0%">
+            <b>Tools and Technologies: </b>
+             <p style="margin-left: 1%">
+                 
+The hardware required for this project depends on the individual scale. The central and most essential piece of equipment is the Raspberry Pi. These machines come in a variety of different specifications, but for this project we just need it to have access to the internet and the ability to store and output audio files. Additional hardware required would be the external speakers and required wiring, a mobile device to trigger the system and any additional hardware required such as lights, cameras, motion sensors etc. Raspberry Pi OS and app development software would be required.
+
+        <br>
+        <br>
+            <p style="margin-left: 0%">
+            <b>Skills Required: </b>
+             <p style="margin-left: 1%">
+                 
+The project requires knowledge of command line, how to install and operate a Raspberry Pi and how to operate the OS Raspbian. It also requires some technical skills in setting up a sound system and wiring up cameras and other devices. 
+<br>
+<br>
+Installing this system will also require the user to be able to alter their router’s settings to use port forwarding. App development skills will also be essential to creating a smoothly operating system that does not require full command line input every time.
+
+        <br>
+        <br>
+            <p style="margin-left: 0%">
+            <b>Outcome: </b>
+             <p style="margin-left: 1%">
+                 
+Successful completion of this project would give the user extra piece of mind when it comes to the security of the premises it is installed in. The system functions as an added layer of protection for the people and property within. The user would also gain a lot of knowledge about the potential of the Raspberry Pi computer system. The development of an associated app and potential user guide could lead to the development of DIY and give people the ability to take control of their home security in a cost effective and energy efficient way and perhaps provide a base of knowledge to continue to automate their home in other ways.
 
         <br>
             <br>
