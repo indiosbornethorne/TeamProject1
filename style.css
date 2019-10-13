@@ -33,6 +33,11 @@ i {
     border-bottom:5px solid rgb(249,249,249);padding-bottom:10px;
 }
 
+.topnavindex {
+  background-color: #ffff;
+    overflow: hidden;
+}
+
 .margin {
  margin-left: 2.25%;
  margin-right: 2.25%;
